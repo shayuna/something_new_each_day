@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <title>adding a python script interface</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="./public/css/style.css"/> 
+    </head>
+    <body>
+        <h1 id="hdr">add a python script</h1>
+        <form id="addScriptForm" method="post" target="frm" action="../register">
+            <input class="fld" type="text" id="scriptName" name="scriptName" placeholder="enter a script name, or die please"/>
+            <textarea class="fld" id="scriptCode" name="scriptCode" placeholder="enter code here pleaseeee and forfeit your authorship and copyright"></textarea>
+            <input class="fld" type="submit" value="beam me up doc"/>
+        </form>
+        <iframe id="frm" name="frm"></iframe>
+        <script>
+            function notifyUser(){
+                alert ("the script was added successfully");
+                document.getElementById("scriptName").value="";
+                document.getElementById("scriptCode").value="";
+            }
+        </script>
+    </body>
+</html>

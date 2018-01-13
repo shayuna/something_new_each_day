@@ -1,0 +1,28 @@
+#addScriptForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    
+}
+#frm{
+    display:none;
+}
+#hdr{
+    text-align: center;
+}
+.fld{
+    margin:20px;
+    width:400px; 
+}
+#scriptCode{
+    width:800px;
+    height:400px;
+}
+.centerContent{
+    min-height:100vh;
+    min-width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
